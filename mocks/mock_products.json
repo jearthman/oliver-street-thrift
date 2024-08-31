@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "gid://shopify/Product/6628956373159",
+    "title": "Vintage 80's Guess Denim Jacket Batwing Sleeves Size Medium  100% Cotton",
+    "handle": "vintage-80s-guess-denim-jacket-dolman-sleeves-made-in-usa-100-cotton",
+    "description": "Vintage 80's Guess Cropped Denim Jacket with Dolman Sleeves, Size Medium. Made in the USA, 100% Cotton Denim. Great vintage condition! No missing buttons or holes. Not even faded! This label with the red crosshatch stitching is the OG label! True Guess Vintage! Approx Measurements: Chest Size: 36\" Waist is 30\" Shoulder to Hem 19-1/2\" Shoulder to Shoulder: 19\"",
+    "descriptionHtml": "<p><span data-mce-fragment=\"1\">Vintage 80's Guess Cropped Denim Jacket with Dolman Sleeves, Size Medium. Made in the USA, 100% Cotton Denim. Great vintage condition! No missing buttons or holes. Not even faded! This label with the red crosshatch stitching is the OG label! True Guess Vintage!</span></p>\n<p><span data-mce-fragment=\"1\">Approx Measurements: Chest Size: 36\"  Waist is 30\" Shoulder to Hem 19-1/2\"  Shoulder to Shoulder: 19\"</span></p>",
+    "productType": "1980's Guess Cropped Denim Jacket with Batwing Sleeves, Size Medium",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28455591084199",
+      "width": 1600,
+      "height": 1600,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton.jpg?v=1629055170"
+    },
+    "status": "draft",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28455591084199",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590756519",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton-back.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590559911",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton1.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590658215",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton4.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455591018663",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton6.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590625447",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton2.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590854823",
+        "height": 1417,
+        "width": 1145,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton5.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590723751",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton-label.jpg?v=1629055170"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28455590920359",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/Vintage80_sGuessDenimJacketDolmanSleeves_MadeinUSA100_Cotton3.jpg?v=1629055170"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8518055526567",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 89,
+      "maxVariantPrice": 89
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39627302731943",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 1,
+        "position": 1,
+        "price": "89.00",
+        "product": {
+          "id": "gid://shopify/Product/6628956373159",
+          "status": "draft"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 1,
+        "weightUnit": "POUNDS",
+        "createdAt": "2021-04-09T13:44:01Z",
+        "updatedAt": "2023-10-27T16:58:00Z"
+      }
+    ],
+    "tags": [
+      "Denim Jacket Batwing Sleeves Size Medium",
+      "Vintage 100% Cotton Denim",
+      "Vintage 80's Guess Denim Jacket Batwing Sleeves Size Medium",
+      "Vintage 80's Guess Jacket",
+      "Vintage 80's Guess Jacket Medium",
+      "vintage denim jacket"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-03-29T13:35:03Z",
+    "createdAt": "2021-04-09T13:44:01Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6629090099367",
+    "title": "Velzera Embroidered Dress w Pom Poms & Cold Shoulders & Flute Sleeve, Size Small",
+    "handle": "velzera-embroidered-dress-w-pom-poms-cold-shoulders-flute-sleeve-size-small",
+    "description": "Brand: VELZERA Size: S Size Type: Regular Color: Navy blue Department: Women Garment Care: Hand Wash Only Sleeve Type: Bell Sleeve Accents: Embroidered, Ruffle, Pom Poms Pattern: Geometric Style: Baby Doll, Boho, Hippy Sleeve Length: Half Sleeve Material: 100% Rayon Occasion: Casual Neckline: Open Dress Length: Above the Knee Vintage: No",
+    "descriptionHtml": "<p data-mce-fragment=\"1\">Brand: VELZERA</p>\n<p data-mce-fragment=\"1\">Size: S  </p>\n<p data-mce-fragment=\"1\">Size Type: Regular</p>\n<p data-mce-fragment=\"1\">Color: Navy blue</p>\n<p data-mce-fragment=\"1\">Department: Women    </p>\n<p data-mce-fragment=\"1\">Garment Care: Hand Wash Only</p>\n<p data-mce-fragment=\"1\">Sleeve Type: Bell Sleeve</p>\n<p data-mce-fragment=\"1\">Accents: Embroidered, Ruffle, Pom Poms</p>\n<p data-mce-fragment=\"1\">Pattern: Geometric</p>\n<p data-mce-fragment=\"1\">Style: Baby Doll, Boho, Hippy     </p>\n<p data-mce-fragment=\"1\">Sleeve Length: Half Sleeve</p>\n<p data-mce-fragment=\"1\">Material: 100% Rayon   </p>\n<p data-mce-fragment=\"1\">Occasion: Casual</p>\n<p data-mce-fragment=\"1\">Neckline: Open</p>\n<p data-mce-fragment=\"1\">Dress Length: Above the Knee</p>\n<p data-mce-fragment=\"1\">Vintage: No       </p>",
+    "productType": "dress",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28456126709927",
+      "width": 1200,
+      "height": 1600,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall2.jpg?v=1617979122"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28456126709927",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall2.jpg?v=1617979122"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28456126611623",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall.jpg?v=1617979122"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28456126677159",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall3.jpg?v=1617979122"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28456126742695",
+        "height": 1495,
+        "width": 1007,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall4.jpg?v=1617979122"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28456126775463",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall1.jpg?v=1617979122"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28456126644391",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall5.jpg?v=1617979122"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28456127004839",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VelzeraEmbroideredDresswPomPoms_ColdShoulders_FluteSleeve_SizeSmall6.jpg?v=1617979123"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8518225428647",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 11.99,
+      "maxVariantPrice": 11.99
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39627727634599",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "11.99",
+        "product": {
+          "id": "gid://shopify/Product/6629090099367",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 0,
+        "weightUnit": "POUNDS",
+        "createdAt": "2021-04-09T14:38:40Z",
+        "updatedAt": "2023-10-27T16:58:00Z"
+      }
+    ],
+    "tags": ["dress", "dresses"],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-08-01T16:54:46Z",
+    "createdAt": "2021-04-09T14:38:40Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6629576474791",
+    "title": "Vintage Color Block Shoulder Bag Purse Faux Leather",
+    "handle": "vintage-color-block-shoulder-bag-purse-faux-leather",
+    "description": "Brand: Vintage Department: Women Theme: Colorful Color: Black Style: Shoulder Bag Features: Vintage Color Block Material: Faux Leather",
+    "descriptionHtml": "<p data-mce-fragment=\"1\">Brand: Vintage</p>\n<p data-mce-fragment=\"1\">Department: Women    </p>\n<p data-mce-fragment=\"1\">Theme: Colorful</p>\n<p data-mce-fragment=\"1\">Color: Black</p>\n<p data-mce-fragment=\"1\">Style: Shoulder Bag</p>\n<p data-mce-fragment=\"1\">Features: Vintage Color Block    </p>\n<p data-mce-fragment=\"1\">Material: Faux Leather</p>",
+    "productType": "bag",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28458006446247",
+      "width": 1600,
+      "height": 1600,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather.jpg?v=1617989590"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28458006446247",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather.jpg?v=1617989590"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006315175",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather1.jpg?v=1617989590"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006511783",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather2.jpg?v=1617989591"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006544551",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather3.jpg?v=1617989591"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006642855",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather4.jpg?v=1617989592"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006413479",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather5.jpg?v=1617989592"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006479015",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather6.jpg?v=1617989592"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006577319",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather7.jpg?v=1617989592"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006610087",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather8.jpg?v=1617989592"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28458006347943",
+        "height": 1600,
+        "width": 1600,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/VintageColorBlockShoulderBagPurseFauxLeather9.jpg?v=1617989592"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8518803062951",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 10,
+      "maxVariantPrice": 10
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39629101858983",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 1,
+        "position": 1,
+        "price": "10.00",
+        "product": {
+          "id": "gid://shopify/Product/6629576474791",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 0,
+        "weightUnit": "POUNDS",
+        "createdAt": "2021-04-09T17:33:09Z",
+        "updatedAt": "2023-10-27T16:58:00Z"
+      }
+    ],
+    "tags": [
+      "bag",
+      "color block",
+      "faux leather",
+      "little black bag",
+      "shoulder bag",
+      "vegan leather",
+      "vintage bag"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-08-01T16:54:46Z",
+    "createdAt": "2021-04-09T17:33:08Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6635699699879",
+    "title": "Vintage 90's Long Black Sleeveless Dress  Size Small",
+    "handle": "long-black-sheer-vintage-dress-with-floral-accents-along-hemline-small",
+    "description": "Vintage 90's Long Black Sleeveless Dress with floral pattern accent bordering the bottom hem. Size Small. Very good vintage condition with no apparent flaws. Approximate Measurements Chest 32\" Waist 27\" Hips 35\" Front Collar to Hem 52 3/4 \"",
+    "descriptionHtml": "<p dir=\"ltr\" data-mce-fragment=\"1\">Vintage 90's Long Black Sleeveless Dress with floral pattern accent bordering the bottom hem.  Size Small. Very good vintage condition with no apparent flaws.</p>\n<p dir=\"ltr\" data-mce-fragment=\"1\">Approximate Measurements</p>\n<p dir=\"ltr\" data-mce-fragment=\"1\">Chest 32\"</p>\n<p dir=\"ltr\" data-mce-fragment=\"1\">Waist 27\"</p>\n<p dir=\"ltr\" data-mce-fragment=\"1\">Hips 35\"</p>\n<p dir=\"ltr\" data-mce-fragment=\"1\">Front Collar to Hem 52 3/4 \"</p>\n<p data-mce-fragment=\"1\"><br></p>",
+    "productType": "Vintage 90's Long Black Sleeveless Dress Size Small",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28575638945959",
+      "width": 813,
+      "height": 1561,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_9_f3a42646-46f5-49d9-9177-c3ad3f20446d.jpg?v=1618681348"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28575638945959",
+        "height": 1561,
+        "width": 813,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_9_f3a42646-46f5-49d9-9177-c3ad3f20446d.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638257831",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_6_2df0484e-e5a6-43c5-8ff8-5862e895a7e6.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638487207",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_1_cdbb8c71-343e-4e43-919f-d3ec1463c0cf.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575637995687",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_6da4fa83-dff7-4314-b420-e84b2664bf0b.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638093991",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_3_62424281-f5b9-4d68-9c63-a10cbf2d1c4b.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638880423",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_2_d846416d-d57d-45cc-ace5-b24d9d532b5f.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638749351",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_5_bdd1042f-764e-4de2-a1c2-9ff0e5372ab2.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638978727",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_8_eee321c4-c070-4778-a397-8716cb24b2fd.jpg?v=1618681348"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28575638847655",
+        "height": 1600,
+        "width": 1200,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/s-l1600_7_daac9deb-3e0f-42be-b7c2-857f3f94d0c6.jpg?v=1618681348"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8526526251175",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 25,
+      "maxVariantPrice": 25
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39658046455975",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "25.00",
+        "product": {
+          "id": "gid://shopify/Product/6635699699879",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 3,
+        "weightUnit": "POUNDS",
+        "createdAt": "2021-04-13T16:36:26Z",
+        "updatedAt": "2023-10-27T16:58:00Z"
+      }
+    ],
+    "tags": [
+      "black dress",
+      "dress",
+      "dresses",
+      "floral",
+      "Long Black Sleeveless Dress  Size Small",
+      "maxi dress",
+      "sheer dress",
+      "vintage dress"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-03-29T13:35:03Z",
+    "createdAt": "2021-04-13T16:36:26Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6635913248935",
+    "title": "Vintage Carved Duck Tobacco Box 18\" Long x 6.5\" Wide",
+    "handle": "vintage-hand-carved-wooden-duck-box-18-long-x-6-5-wide",
+    "description": "Wooden Carved Duck Tobacco Box - 18\" Long x 6.5\" wide Weight: 3lbs 10.9oz",
+    "descriptionHtml": "<p>Wooden Carved Duck Tobacco Box - 18\" Long x 6.5\" wide</p>\n<p>Weight: 3lbs 10.9oz</p>",
+    "productType": "Vintage Wood Carved Duck Tobacco Box 18\" Long x 6.5\" Wide",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28504380768423",
+      "width": 3024,
+      "height": 3024,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130201.jpg?v=1618583794"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28504380768423",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130201.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504381620391",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130830.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504380899495",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130808.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504380833959",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130152.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504380637351",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130121.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504381063335",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130124.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504380965031",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130050.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504381128871",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130054.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504381325479",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130044.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504380702887",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130355.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504381391015",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_130419.jpg?v=1618583794"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28504380670119",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210413_125931.jpg?v=1618340327"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8526783545511",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 50,
+      "maxVariantPrice": 50
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39658961010855",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "50.00",
+        "product": {
+          "id": "gid://shopify/Product/6635913248935",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 4,
+        "weightUnit": "POUNDS",
+        "createdAt": "2021-04-13T18:54:18Z",
+        "updatedAt": "2023-10-27T16:58:01Z"
+      }
+    ],
+    "tags": [
+      "Duck Decor",
+      "Hand Carved Wood Duck",
+      "Vintage Tobacco Box",
+      "Vintage Wood Carved Duck Tobacco Box 18\" Long x 6.5\" Wide",
+      "Vintage Wooden Duck"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-08-01T16:54:46Z",
+    "createdAt": "2021-04-13T18:54:18Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6643459522727",
+    "title": "Vintage Native American Hand Beaded Seed Bead Vest w Fringe",
+    "handle": "vintage-native-american-hand-beaded-seed-bead-vest-w-fringe",
+    "description": "Hand beaded black fringed vest with multicolored tribal designed seed bead. Approx Measurments: Chest 38\" Length 19\" (not incl fringe) Vest Weight: 1lb 10.5oz",
+    "descriptionHtml": "<p>Hand beaded black fringed vest with multicolored tribal designed seed bead. </p>\n<p>Approx Measurments: Chest 38\" Length 19\" (not incl fringe)</p>\n<p>Vest Weight: 1lb 10.5oz </p>",
+    "productType": "Vintage Native American",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28543693783207",
+      "width": 3024,
+      "height": 3024,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113247.jpg?v=1618586112"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28543693783207",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113247.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543693815975",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113203.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543694078119",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113217.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543693848743",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113225.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543693652135",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113232.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543693881511",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113239.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543694340263",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113243.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543694602407",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113257.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543694471335",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113302.jpg?v=1618586112"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28543693684903",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_113342.jpg?v=1618586112"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8535292510375",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 450,
+      "maxVariantPrice": 450
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39683731718311",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "450.00",
+        "product": {
+          "id": "gid://shopify/Product/6643459522727",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "C1",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 26.5,
+        "weightUnit": "OUNCES",
+        "createdAt": "2021-04-15T17:09:59Z",
+        "updatedAt": "2023-10-27T16:58:01Z"
+      }
+    ],
+    "tags": [
+      "Boho",
+      "ceremonial vest",
+      "Fringed Vest",
+      "Hand Beaded",
+      "Men's Vest",
+      "Men's Vintage Beaded Vest",
+      "Native American Vintage",
+      "Seed Bead",
+      "Tribal",
+      "Tribal Seed Bead",
+      "Vintage",
+      "vintage top"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-03-29T13:35:03Z",
+    "createdAt": "2021-04-15T17:09:59Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6645494382759",
+    "title": "Vintage  Handcrafted Woven Coiled Basket",
+    "handle": "vintage-native-american-handcrafted-woven-basket",
+    "description": "Approximate Measurments: 10\" Wide across the top, the base is 4.5\" Wide, 3.5\" High. Basket's Weight: 8.9oz",
+    "descriptionHtml": "<p>Approximate Measurments: 10\" Wide across the top, the base is 4.5\" Wide, 3.5\" High.</p>\n<p>Basket's Weight: 8.9oz</p>",
+    "productType": "decor",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28557821509799",
+      "width": 3024,
+      "height": 3024,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102529_ed6c8b87-6ea7-4123-a8c0-ceff5db44cdc.jpg?v=1618581685"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28557821509799",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102529_ed6c8b87-6ea7-4123-a8c0-ceff5db44cdc.jpg?v=1618581685"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557821444263",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102527.jpg?v=1618581685"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557820985511",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102518.jpg?v=1618581685"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557821051047",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102504.jpg?v=1618581686"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557821116583",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102458.jpg?v=1618581686"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557821247655",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102454.jpg?v=1618581686"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557821149351",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102529.jpg?v=1618581686"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28557821083815",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102511.jpg?v=1618581686"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8537804341415",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 15,
+      "maxVariantPrice": 15
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39692919079079",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "15.00",
+        "product": {
+          "id": "gid://shopify/Product/6645494382759",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 14,
+        "weightUnit": "OUNCES",
+        "createdAt": "2021-04-16T13:40:22Z",
+        "updatedAt": "2023-10-27T16:58:01Z"
+      }
+    ],
+    "tags": [
+      "Coiled Basket Weave",
+      "Handcrafted",
+      "Handwoven Coiled Basket Weave",
+      "Home Decor",
+      "Native American Basket",
+      "Vintage",
+      "Vintage Native American"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-03-29T13:35:03Z",
+    "createdAt": "2021-04-16T13:40:22Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6645615296679",
+    "title": "Vintage Solid Wood Bowl 8.5\" Wide x 3\" Deep, Weight 15.3 oz",
+    "handle": "vintage-solid-wood-bowl-8-5-wide-x-3-deep-weight-15-3-oz",
+    "description": "Beautiful bowl, with the wood grain revealing many rings. This was found in a home with plenty Native American collectibles. Unknown origin. Unmarked. Bowl's Weight: 15.3oz",
+    "descriptionHtml": "<p>Beautiful bowl, with the wood grain revealing many rings. This was found in a home with plenty Native American collectibles. Unknown origin. Unmarked.</p>\n<p>Bowl's Weight: 15.3oz</p>",
+    "productType": "decor",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28558282391719",
+      "width": 3024,
+      "height": 3024,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102613.jpg?v=1618583306"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28558282391719",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102613.jpg?v=1618583306"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28558282227879",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102610.jpg?v=1618583306"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28558281834663",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102558.jpg?v=1618583306"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28558282588327",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102549.jpg?v=1618583306"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28558282129575",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102544.jpg?v=1618583306"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28558282260647",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102539.jpg?v=1618583306"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28558282031271",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_102552.jpg?v=1618583306"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8537948651687",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 20,
+      "maxVariantPrice": 20
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39693416235175",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "20.00",
+        "product": {
+          "id": "gid://shopify/Product/6645615296679",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 31,
+        "weightUnit": "OUNCES",
+        "createdAt": "2021-04-16T14:24:29Z",
+        "updatedAt": "2023-10-27T16:58:01Z"
+      }
+    ],
+    "tags": [
+      "decor",
+      "Handcrafted Wood Bowl",
+      "Primitive Wood Bowl",
+      "Vintage Wooden Bowl",
+      "Wood Bowl",
+      "Wooden Catch all"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-08-01T16:54:47Z",
+    "createdAt": "2021-04-16T14:24:29Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6645704032423",
+    "title": "Vintage Native American Ceremonial Smudging Feather Fan",
+    "handle": "vintage-native-american-ceremonial-smudging-feather-fan",
+    "description": "Approximate Measurements 24\" Long x 11.5\" Wide. Weighs 4.5oz. Tribe unknown. Purchased from a home with plenty Native American collectibles.",
+    "descriptionHtml": "<p>Approximate Measurements 24\" Long x 11.5\" Wide. Weighs 4.5oz.</p>\n<p>Tribe unknown. Purchased from a home with plenty Native American collectibles.</p>",
+    "productType": "collectible",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28559053127847",
+      "width": 3024,
+      "height": 3024,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111504.jpg?v=1618585787"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28559053127847",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111504.jpg?v=1618585787"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559052669095",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111531.jpg?v=1618585787"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559053029543",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111533.jpg?v=1618585787"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559052570791",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111551.jpg?v=1618585787"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559053226151",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111548.jpg?v=1618585787"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559053422759",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111545.jpg?v=1618586035"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559053521063",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111518.jpg?v=1618585761"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28559052636327",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111515.jpg?v=1618585761"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8538057244839",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 29,
+      "maxVariantPrice": 29
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39693832356007",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "29.00",
+        "product": {
+          "id": "gid://shopify/Product/6645704032423",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 14,
+        "weightUnit": "OUNCES",
+        "createdAt": "2021-04-16T15:02:17Z",
+        "updatedAt": "2023-10-27T16:58:01Z"
+      }
+    ],
+    "tags": [
+      "ceremonial wand",
+      "collectible",
+      "Feather Fan",
+      "Magical Wand",
+      "Native American Collectible",
+      "Vintage Smudging Fan"
+    ],
+    "vendor": "Oliver Street Thrift & Vintage",
+    "updatedAt": "2023-03-29T13:35:03Z",
+    "createdAt": "2021-04-16T15:02:17Z",
+    "publishedAt": null
+  },
+  {
+    "id": "gid://shopify/Product/6646645915815",
+    "title": "Vintage 90's Eddie Bauer Large Canvas Diaper Bag or Picnic Bag",
+    "handle": "vintage-90s-eddie-bauer-large-canvas-diaper-bag-picnic-bag",
+    "description": "Vintage Pre-owned condition with minor signs of use. This large multipurpose canvas bag has 11 pockets in total. 3 big pockets on the front and back, four of them are lined with reflective like cooler material. The middle pockets on both sides are lined, one has a chain to loop keys or wallet. Two of the large pockets inside are also for cold drinks (baby bottles or booze n snacks). Pockets to hold credit cards and old school 90's size phone pocket accessorize the interior of the bag. 20\"x 12\" /2lbs 5oz",
+    "descriptionHtml": "<p>Vintage Pre-owned condition with minor signs of use. This large multipurpose canvas bag has 11 pockets in total. 3 big pockets on the front and back, four of them are lined with reflective like cooler material. The middle pockets on both sides are lined, one has a chain to loop keys or wallet.  Two of the large pockets inside are also for cold drinks (baby bottles or booze n snacks). Pockets to hold credit cards and old school 90's size phone pocket accessorize the interior of the bag.  20\"x 12\" /2lbs 5oz</p>",
+    "productType": "Canvas Diaper Bag",
+    "featuredImage": {
+      "id": "gid://shopify/ProductImage/28688247718055",
+      "width": 1512,
+      "height": 1512,
+      "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_104947.jpg?v=1619368920"
+    },
+    "status": "archived",
+    "images": [
+      {
+        "id": "gid://shopify/ProductImage/28688247718055",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_104947.jpg?v=1619368920"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247980199",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_104936.jpg?v=1619368920"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247619751",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111104.jpg?v=1619368919"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247685287",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111049.jpg?v=1619368919"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247914663",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111140.jpg?v=1619368890"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247783591",
+        "height": 3024,
+        "width": 3024,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_110925.jpg?v=1619368890"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247750823",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111332.jpg?v=1619368920"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247586983",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111319.jpg?v=1619368919"
+      },
+      {
+        "id": "gid://shopify/ProductImage/28688247652519",
+        "height": 1512,
+        "width": 1512,
+        "src": "https://cdn.shopify.com/s/files/1/0556/2125/5335/products/20210415_111005.jpg?v=1619368920"
+      }
+    ],
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/8539286044839",
+        "position": 1,
+        "name": "Title",
+        "values": ["Default Title"]
+      }
+    ],
+    "priceRange": {
+      "minVariantPrice": 39.99,
+      "maxVariantPrice": 39.99
+    },
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/39697501126823",
+        "barcode": "",
+        "inventoryManagement": "SHOPIFY",
+        "inventoryPolicy": "DENY",
+        "inventoryQuantity": 0,
+        "position": 1,
+        "price": "39.99",
+        "product": {
+          "id": "gid://shopify/Product/6646645915815",
+          "status": "archived"
+        },
+        "selectedOptions": [
+          {
+            "name": "Title",
+            "value": "Default Title"
+          }
+        ],
+        "requiresShipping": true,
+        "fulfillmentService": "manual",
+        "sku": "",
+        "taxable": true,
+        "title": "Default Title",
+        "weight": 24,
+        "weightUnit": "OUNCES",
+        "createdAt": "2021-04-16T23:17:46Z",
+        "updatedAt": "2023-10-27T16:58:01Z"
+      }
+    ],
+    "tags": [
+      "bag",
+      "Canvas Diaper Bag",
+      "Diaper Bag",
+      "Eddie Bauer",
+      "Large Canvas Picnic Bag",
+      "Vintage",
+      "Vintage bag"
+    ],
+    "vendor": "Eddie Bauer",
+    "updatedAt": "2023-03-29T13:35:03Z",
+    "createdAt": "2021-04-16T23:17:46Z",
+    "publishedAt": null
+  }
+]

@@ -1,5 +1,5 @@
-import Links from "./components/links";
-import Nav from "./components/nav";
+import Links from "../components/links";
+import Nav from "../components/nav";
 
 export default function Home() {
   return (

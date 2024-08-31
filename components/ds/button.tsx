@@ -1,6 +1,5 @@
 import { cva, VariantProps } from "cva";
 import React from "react";
-import { twMerge } from "tailwind-merge";
 
 const buttonStyles = cva(
   "flex items-center justify-center border font-medium transition duration-150 enabled:active:shadow-inner disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none",
@@ -13,7 +12,7 @@ const buttonStyles = cva(
           "border-parchment-600 bg-parchment-500 text-parchment-50 enabled:hover:bg-parchment-400 enabled:hover:text-white enabled:active:bg-parchment-500 enabled:active:shadow-inner dark:bg-parchment-300 dark:text-parchment-800 dark:enabled:hover:bg-parchment-400",
         neutral: "bg-gray-400 text-gray-900 enabled:hover:bg-gray-400",
         link: "bg-transparent text-parchment-600 shadow-none enabled:hover:bg-transparent",
-        icon: "bg-transparent border-none text-parchment-950 shadow-none enabled:hover:text-parchment-800 enabled:active:text-black enabled:active:shadow-none",
+        icon: "bg-transparent border-none text-parchment-900 shadow-none enabled:hover:text-parchment-700 enabled:active:text-black enabled:active:shadow-none",
         "primary-outline":
           "border-2 border-cinnabar-500 bg-transparent text-cinnabar-600 enabled:hover:bg-cinnabar-50",
         "secondary-outline":
@@ -43,7 +42,7 @@ const buttonStyles = cva(
       fullWidth: false,
       size: "medium",
     },
-  },
+  }
 );
 
 export interface Props
@@ -61,14 +60,14 @@ export default function Button({
   className = "",
   ...rest
 }: Props) {
-  const computedClassNames = twMerge(
-    `${buttonStyles({
+  const computedClassNames = `
+    ${buttonStyles({
       intent,
       fullWidth,
       size,
-    })}`,
-    `${className}`,
-  );
+    })}
+    ${className}
+  `;
   return (
     <button className={computedClassNames} {...rest}>
       {children}

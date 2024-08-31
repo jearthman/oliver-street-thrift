@@ -4,7 +4,7 @@ export interface NavLinkProps {
 
 export default function NavLink({ children }: NavLinkProps) {
   return (
-    <li className="transition-link hover:text-shadow cursor-pointer border-b-2 border-transparent uppercase leading-tight ease-in-out hover:border-parchment-950">
+    <li className="cursor-pointer font-light border-b-2 border-transparent hover:border-parchment-950 uppercase leading-tight">
       {children}
     </li>
   );
