@@ -10,7 +10,7 @@ const girassol = Girassol({ weight: "400", subsets: ["latin"] });
 export default function Nav() {
   return (
     <nav className="bg-parchment-100 py-4 text-parchment-950">
-      <div className="mx-auto flex items-center md:w-2/3 lg:w-1/2">
+      <div className="mx-auto flex items-center md:w-3/4 lg:w-2/3">
         <Logo />
         <div className="flex w-full pl-3">
           <span className={`flex text-4xl font-bold ${girassol.className}`}>

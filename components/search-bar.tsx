@@ -23,7 +23,7 @@ export default function SearchBar() {
 
   return (
     <div
-      className={`flex w-64 items-center rounded-full border-2 border-parchment-800 bg-parchment-50 transition-width duration-500 focus-within:w-96 ${query && "w-96"}`}
+      className={`flex w-64 items-center rounded-full border border-parchment-900 bg-parchment-50 duration-500 focus-within:w-96 ${query && "w-96"}`}
     >
       <SearchIcon className="mx-2 opacity-50" />
       <input
@@ -31,7 +31,7 @@ export default function SearchBar() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         type="text"
-        className="peer h-full py-1.5 bg-parchment-50 placeholder:text-parchment-950 placeholder:opacity-75 focus:outline-none focus:ring-0"
+        className="peer h-full py-1.5 bg-parchment-50 placeholder:text-parchment-950 placeholder:opacity-50 focus:outline-none focus:ring-0"
         placeholder="Search for Items"
       />
 

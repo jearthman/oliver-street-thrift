@@ -1,15 +1,18 @@
-import NavLink from "./nav-links";
+import { sanityClient } from "@/src/sanity/lib/client";
+import { NAV_QUERY } from "@/src/sanity/lib/queries";
+import { NavigationCategory } from "@/src/sanity/types";
+import NavLinks from "./nav-links";
 
-export default function Links() {
+export default async function Links() {
+  const navCategoryList = await sanityClient.fetch(NAV_QUERY);
+
+  const navCategories: NavigationCategory[] =
+    navCategoryList[0].OrderedNavigationCategories;
+  console.log(navCategories);
+
   return (
-    <div className="bg-parchment-50 py-3 text-parchment-950">
-      <ul className="mx-auto flex items-center justify-between tracking-wider md:w-2/3 lg:w-1/2">
-        <NavLink>new arrivals</NavLink>
-        <NavLink>women</NavLink>
-        <NavLink>men</NavLink>
-        <NavLink>jewelery</NavLink>
-        <NavLink>home goods</NavLink>
-      </ul>
+    <div className="bg-parchment-50 text-parchment-950 relative h-11">
+      <NavLinks navCategories={navCategories} />
     </div>
   );
 }

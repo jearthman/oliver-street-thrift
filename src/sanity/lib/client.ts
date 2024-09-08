@@ -1,0 +1,19 @@
+// ./src/utils/sanity/client.ts
+import { createClient } from "next-sanity";
+
+const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
+const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET;
+const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2024-07-11";
+
+if (!projectId || !dataset) {
+  throw new Error(
+    "Missing Sanity projectId or dataset. Check your environment variables."
+  );
+}
+
+export const sanityClient = createClient({
+  projectId,
+  dataset,
+  apiVersion, // https://www.sanity.io/docs/api-versioning
+  useCdn: true, // if you're using ISR or only static generation at build time then you can set this to `false` to guarantee no stale content
+});

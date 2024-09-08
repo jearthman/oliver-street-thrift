@@ -1,5 +1,6 @@
 import { cva, VariantProps } from "cva";
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
 const buttonStyles = cva(
   "flex items-center justify-center border font-medium transition duration-150 enabled:active:shadow-inner disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none",
@@ -60,14 +61,14 @@ export default function Button({
   className = "",
   ...rest
 }: Props) {
-  const computedClassNames = `
-    ${buttonStyles({
+  const computedClassNames = twMerge(
+    `${buttonStyles({
       intent,
       fullWidth,
       size,
-    })}
-    ${className}
-  `;
+    })}`,
+    `${className}`
+  );
   return (
     <button className={computedClassNames} {...rest}>
       {children}
