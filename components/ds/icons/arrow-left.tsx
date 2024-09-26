@@ -1,14 +1,14 @@
-export interface ArrowRightIconProps {
+export interface ArrowLeftIconProps {
   className?: string;
   strokeWidth?: number;
   size?: string;
 }
 
-export default function ArrowRightIcon({
+export default function ArrowLeftIcon({
   className,
   strokeWidth = 1.5,
   size = "1em",
-}: ArrowRightIconProps) {
+}: ArrowLeftIconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function ArrowRightIcon({
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+        d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
       />
     </svg>
   );

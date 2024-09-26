@@ -8,10 +8,9 @@ export default async function Links() {
 
   const navCategories: NavigationCategory[] =
     navCategoryList[0].OrderedNavigationCategories;
-  console.log(navCategories);
 
   return (
-    <div className="bg-parchment-50 text-parchment-950 relative h-11">
+    <div className="bg-parchment-50 text-parchment-950 relative h-11 z-50">
       <NavLinks navCategories={navCategories} />
     </div>
   );

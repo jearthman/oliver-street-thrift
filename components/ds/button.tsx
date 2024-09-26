@@ -3,14 +3,14 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 const buttonStyles = cva(
-  "flex items-center justify-center border font-medium transition duration-150 enabled:active:shadow-inner disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none",
+  "flex items-center justify-center rounded-lg shadow border font-medium transition duration-50 ease-out enabled:active:shadow disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none",
   {
     variants: {
       intent: {
         primary:
           "border-cinnabar-600 bg-cinnabar-500 text-cinnabar-50 enabled:hover:bg-cinnabar-400 enabled:hover:text-white enabled:active:bg-cinnabar-500  dark:bg-cinnabar-300 dark:text-cinnabar-800 dark:enabled:hover:bg-cinnabar-400",
         secondary:
-          "border-parchment-600 bg-parchment-500 text-parchment-50 enabled:hover:bg-parchment-400 enabled:hover:text-white enabled:active:bg-parchment-500 enabled:active:shadow-inner dark:bg-parchment-300 dark:text-parchment-800 dark:enabled:hover:bg-parchment-400",
+          "border-parchment-200 bg-parchment-50 text-parchment-950 enabled:hover:bg-white enabled:hover:text-parchment-900 enabled:active:bg-parchment-100",
         neutral: "bg-gray-400 text-gray-900 enabled:hover:bg-gray-400",
         link: "bg-transparent text-parchment-600 shadow-none enabled:hover:bg-transparent",
         icon: "bg-transparent border-none text-parchment-900 shadow-none enabled:hover:text-parchment-700 enabled:active:text-black enabled:active:shadow-none",
@@ -30,12 +30,12 @@ const buttonStyles = cva(
         large: "px-4 py-2 text-xl enabled:hover:shadow-md",
         xlarge: "px-5 py-2.5 text-2xl enabled:hover:shadow-lg",
         xxlarge: "px-6 py-3 text-3xl enabled:hover:shadow-lg",
-        "xsmall-icon": "text-sm",
-        "small-icon": "text-base",
-        "medium-icon": "text-lg",
-        "large-icon": "text-xl",
-        "xlarge-icon": "text-2xl",
-        "xxlarge-icon": "text-3xl",
+        "xsmall-icon": "p-1 text-sm",
+        "small-icon": "p-2 text-base",
+        "medium-icon": "p-3 text-lg",
+        "large-icon": "p-4 text-xl",
+        "xlarge-icon": "p-5 text-2xl",
+        "xxlarge-icon": "p-6 text-3xl",
       },
     },
     defaultVariants: {
@@ -43,7 +43,7 @@ const buttonStyles = cva(
       fullWidth: false,
       size: "medium",
     },
-  }
+  },
 );
 
 export interface Props
@@ -67,7 +67,7 @@ export default function Button({
       fullWidth,
       size,
     })}`,
-    `${className}`
+    `${className}`,
   );
   return (
     <button className={computedClassNames} {...rest}>
