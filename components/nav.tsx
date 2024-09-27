@@ -9,13 +9,13 @@ const girassol = Girassol({ weight: "400", subsets: ["latin"] });
 
 export default function Nav() {
   return (
-    <nav className="bg-parchment-100 py-4 text-parchment-950">
-      <div className="mx-auto flex items-center md:w-3/4 lg:w-2/3">
+    <nav className="flex-grow bg-parchment-100 text-parchment-950">
+      <div className="m-auto flex h-full items-center md:w-3/4 lg:w-2/3">
         <Logo />
         <div className="flex w-full pl-3">
-          <span className={`flex text-4xl font-bold ${girassol.className}`}>
+          <div className={`my-auto text-4xl font-bold ${girassol.className}`}>
             OLIVER STREET
-          </span>
+          </div>
           <div className="ml-auto flex items-center gap-2">
             <SearchBar />
             <Button intent="icon" size="large-icon" className="text-3xl">

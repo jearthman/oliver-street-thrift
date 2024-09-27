@@ -10,6 +10,7 @@ import { getSanityImageURL } from "@/src/sanity/lib/helpers";
 import { shopifyClient } from "@/src/shopify/shopify";
 import { HOME_PAGE_COLLECTION_PRODUCTS_QUERY } from "@/src/shopify/queries";
 import CollectionCarousel from "@/components/collection-carousel";
+import FeatureSection from "@/components/featured-section";
 
 export default async function Home() {
   const homePageContent: HomePage = (
@@ -34,20 +35,30 @@ export default async function Home() {
   console.log(collectionOne.products.edges[0].node.id);
 
   return (
-    <main className="flex h-screen w-screen flex-col">
-      <Nav />
-      <Links />
+    <main className="flex min-h-full w-full flex-col overflow-y-auto overflow-x-hidden">
+      <div className="fixed top-0 z-50 flex h-28 w-full flex-col">
+        <Nav />
+        <Links />
+      </div>
       <Hero
-        className="h-1/3 w-full md:h-1/2"
+        className="mt-28 min-h-[550px] w-full md:h-1/2"
         title={homePageContent.HeroTitle}
         imageURL={getSanityImageURL(homePageContent.HeroImage)}
       />
       <CollectionCarousel
-        className="h-1/3 w-full md:h-1/2"
+        className="min-h-[550px] w-full md:h-1/2"
         title={homePageContent.CollectionOneTitle}
         subtitle={homePageContent.CollectionOneSubtitle}
         collection={collectionOne}
       ></CollectionCarousel>
+      <FeatureSection
+        className="h-[300px] w-full"
+        title={homePageContent.SectionOneTitle || "Default Title"}
+        subtitle={homePageContent.SectionOneSubtitle || "Default Subtitle"}
+        collectionName={
+          homePageContent.SectionOneShopifyCollection || "Collection Name"
+        }
+      />
     </main>
   );
 }

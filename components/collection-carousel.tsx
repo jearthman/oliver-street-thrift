@@ -70,7 +70,7 @@ export default function CollectionCarousel({
       <p className="mb-8 text-sm tracking-wider text-parchment-900">
         {subtitle?.toLocaleUpperCase()}
       </p>
-      <div className="relative my-auto flex w-2/3 items-center justify-between">
+      <div className="relative my-auto flex w-[1240px] items-center justify-between">
         <Button
           intent="secondary"
           size="small-icon"
