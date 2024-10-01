@@ -9,7 +9,7 @@ export const HOME_PAGE_COLLECTION_PRODUCTS_QUERY = print(gql`
         node {
           id
           title
-          products(first: 10) {
+          products(first: 20) {
             edges {
               node {
                 id
@@ -33,6 +33,20 @@ export const HOME_PAGE_COLLECTION_PRODUCTS_QUERY = print(gql`
             }
           }
         }
+      }
+    }
+  }
+`);
+
+export const BASIC_COLLECTION_IMAGE_QUERY = print(gql`
+  #graphql
+  query CollectionImageQuery($query: String!) {
+    collections(first: 1, query: $query) {
+      nodes {
+        image {
+          url
+        }
+        title
       }
     }
   }

@@ -3,12 +3,12 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 const buttonStyles = cva(
-  "flex items-center justify-center rounded-lg shadow border font-medium transition duration-50 ease-out enabled:active:shadow disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none",
+  "flex items-center justify-center shadow font-medium transition duration-50 ease-out enabled:active:shadow disabled:cursor-not-allowed disabled:opacity-50 disabled:shadow-none",
   {
     variants: {
       intent: {
         primary:
-          "border-cinnabar-600 bg-cinnabar-500 text-cinnabar-50 enabled:hover:bg-cinnabar-400 enabled:hover:text-white enabled:active:bg-cinnabar-500  dark:bg-cinnabar-300 dark:text-cinnabar-800 dark:enabled:hover:bg-cinnabar-400",
+          "bg-cinnabar-500 text-cinnabar-50 enabled:hover:text-white enabled:active:bg-cinnabar-500  dark:bg-cinnabar-300 dark:text-cinnabar-800 dark:enabled:hover:bg-cinnabar-400",
         secondary:
           "border-parchment-200 bg-parchment-50 text-parchment-950 enabled:hover:bg-white enabled:hover:text-parchment-900 enabled:active:bg-parchment-100",
         neutral: "bg-gray-400 text-gray-900 enabled:hover:bg-gray-400",
@@ -26,9 +26,9 @@ const buttonStyles = cva(
       },
       size: {
         small: "px-2 py-1 text-base enabled:hover:shadow-md",
-        medium: "px-3 py-1.5 text-lg enabled:hover:shadow-md",
-        large: "px-4 py-2 text-xl enabled:hover:shadow-md",
-        xlarge: "px-5 py-2.5 text-2xl enabled:hover:shadow-lg",
+        medium: "px-3 py-2 text-lg enabled:hover:shadow-lg",
+        large: "px-3 py-2 text-xl enabled:hover:shadow-lg",
+        xlarge: "px-8 py-6 text-2xl enabled:hover:shadow-lg",
         xxlarge: "px-6 py-3 text-3xl enabled:hover:shadow-lg",
         "xsmall-icon": "p-1 text-sm",
         "small-icon": "p-2 text-base",

@@ -1,0 +1,4 @@
+CHANGE 
+  CategoryCollectionList?: Array<{
+    name: string;
+  }>;
