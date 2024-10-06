@@ -8,7 +8,7 @@ const buttonStyles = cva(
     variants: {
       intent: {
         primary:
-          "bg-cinnabar-500 text-cinnabar-50 enabled:hover:text-white enabled:active:bg-cinnabar-500  dark:bg-cinnabar-300 dark:text-cinnabar-800 dark:enabled:hover:bg-cinnabar-400",
+          "bg-cinnabar-500 text-cinnabar-50 enabled:hover:text-white enabled:active:bg-cinnabar-500 ",
         secondary:
           "border-parchment-200 bg-parchment-50 text-parchment-950 enabled:hover:bg-white enabled:hover:text-parchment-900 enabled:active:bg-parchment-100",
         neutral: "bg-gray-400 text-gray-900 enabled:hover:bg-gray-400",

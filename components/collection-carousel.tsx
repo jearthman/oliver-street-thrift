@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useState } from "react";
@@ -24,24 +25,22 @@ export default function CollectionCarousel({
   const [currentProducts, setCurrentProducts] = useState(
     collection.products.edges,
   );
-  const [direction, setDirection] = useState<"next" | "prev">("next");
+  const [direction, setDirection] = useState<1 | -1>();
 
   const imageSideLength = 240;
 
-  const nextVariants = {
-    initial: { x: imageSideLength + 32 },
-    animate: { x: 0 },
-    exit: { x: -imageSideLength - 32 },
-  };
-
-  const prevVariants = {
-    initial: { x: -imageSideLength - 32 },
-    animate: { x: 0 },
-    exit: { x: imageSideLength + 32 },
+  const variants = {
+    initial: (direction: number) => {
+      return { x: direction * imageSideLength + direction * 32, opacity: 0 };
+    },
+    animate: { x: 0, opacity: 1 },
+    exit: (direction: number) => {
+      return { x: direction * -imageSideLength + direction * -32, opacity: 0 };
+    },
   };
 
   const handlePrevClick = () => {
-    setDirection("prev");
+    setDirection(-1);
     const tempProducts = [...currentProducts];
     const poppedProduct = tempProducts.pop();
     if (poppedProduct) {
@@ -51,7 +50,7 @@ export default function CollectionCarousel({
   };
 
   const handleNextClick = () => {
-    setDirection("next");
+    setDirection(1);
     const tempProducts = [...currentProducts];
     const shiftedProduct = tempProducts.shift();
     if (shiftedProduct) {
@@ -86,28 +85,24 @@ export default function CollectionCarousel({
         <div className="hide-scroll-bar absolute left-1/2 flex -translate-x-1/2 gap-8 overflow-hidden px-8">
           <div className="absolute left-0 z-10 h-full w-8 bg-gradient-to-r from-parchment-100 to-transparent"></div>
           <div className="absolute right-0 z-10 h-full w-8 bg-gradient-to-l from-parchment-100 to-transparent"></div>
-          <AnimatePresence
-            mode="popLayout"
-            custom={
-              direction === "next" ? nextVariants.exit : prevVariants.exit
-            }
-            initial={false}
-          >
+          <AnimatePresence mode="popLayout" custom={direction} initial={false}>
             {currentProducts.slice(0, 4).map((product, index) => (
               <motion.div
                 key={`${product.node.id}-${direction}-${index}`}
-                variants={direction === "next" ? nextVariants : prevVariants}
+                variants={variants}
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ type: "spring", duration: 1, bounce: 0.1 }}
+                transition={{ type: "spring", duration: 1, bounce: 0.0 }}
                 className="group flex w-60 cursor-pointer flex-col"
+                custom={direction}
               >
                 <motion.div
                   layoutId={`image-${product.node.title}`}
                   className="overflow-hidden rounded shadow transition-shadow duration-500 ease-out group-hover:shadow-lg"
                 >
-                  <Image
+                  <img
+                    loading="lazy"
                     src={product.node.images.edges[0].node.url}
                     alt={product.node.title}
                     width={240}

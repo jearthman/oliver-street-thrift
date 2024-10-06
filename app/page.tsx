@@ -17,6 +17,9 @@ import CollectionCarousel from "@/components/collection-carousel";
 import FeatureSection from "@/components/feature-section";
 import CategorySection from "@/components/category-section";
 import YoutubeSection from "@/components/youtube-section";
+import Button from "@/components/ds/button";
+import ArrowRightIcon from "@/components/ds/icons/arrow-right";
+import Footer from "@/components/footer";
 
 const girassol = Girassol({ weight: "400", subsets: ["latin"] });
 
@@ -148,46 +151,26 @@ export default async function Home() {
         title={homePageContent.HeroTwoTitle}
         imageURL={getSanityImageURL(homePageContent.HeroTwoImage)}
       />
-      <div className="flex items-center justify-center gap-16 bg-cinnabar-500 py-8">
+      <div className="flex items-center justify-center gap-28 bg-cinnabar-500 py-8">
         <div className={`text-4xl font-bold text-white ${girassol.className}`}>
           SIGN UP FOR OUR NEWSLETTER
         </div>
         <div
-          className={`flex w-64 items-center rounded-full border border-parchment-900 bg-parchment-50 duration-500 focus-within:w-96 ${query && "w-96"}`}
+          className={`flex w-64 items-center border-2 border-white bg-cinnabar-500 duration-500`}
         >
           <input
-            ref={inputRef}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
             type="text"
-            className="peer h-full bg-parchment-50 py-1.5 placeholder:text-parchment-950 placeholder:opacity-50 focus:outline-none focus:ring-0"
-            placeholder="Search for Items"
+            className="peer h-full bg-cinnabar-500 py-1.5 pl-2 text-white placeholder:text-white placeholder:opacity-50 focus:outline-none focus:ring-0"
+            placeholder="Enter Email"
           />
-
-          <div
-            className={`ml-auto mr-2 flex gap-2 ${query ? "opacity-100" : "opacity-0"} transition-opacity duration-500`}
-          >
-            {isVisible && (
-              <>
-                <Button
-                  intent="icon"
-                  size="small-icon"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setQuery("");
-                    inputRef.current?.focus();
-                  }}
-                >
-                  <XMarkIcon />
-                </Button>
-                <Button intent="icon" size="small-icon">
-                  <ArrowRightIcon />
-                </Button>
-              </>
-            )}
+          <div className={`ml-auto flex transition-opacity duration-500`}>
+            <Button intent="icon" size="small-icon">
+              <ArrowRightIcon className="text-white" />
+            </Button>
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

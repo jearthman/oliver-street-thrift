@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState, useRef, useCallback, useEffect } from "react";
@@ -37,7 +38,7 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
         setIsContentVisible(true);
       }, 0);
     },
-    []
+    [],
   );
 
   const handleMouseLeave = useCallback((e: React.MouseEvent) => {
@@ -77,7 +78,7 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
           <li
             id="nav-link"
             onMouseEnter={() => handleMouseEnter(category)}
-            className="cursor-pointer font-light relative uppercase leading-tight py-3"
+            className="relative cursor-pointer py-3 font-light uppercase leading-tight"
             key={index}
           >
             <span
@@ -91,12 +92,12 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
       <div
         onMouseEnter={() => handleMouseEnter(activeCategory)}
         onMouseLeave={handleMouseLeave}
-        className={`absolute flex justify-center items-center top-[2.75rem - 1px] bg-parchment-50 w-full overflow-hidden transition-all ease-in-out duration-300 ${
+        className={`top-[2.75rem - 1px] absolute flex w-full items-center justify-center overflow-hidden bg-parchment-50 transition-all duration-300 ease-in-out ${
           expandFlyout ? "h-[300px]" : "h-0"
         }`}
       >
         <div
-          className={`flex md:w-2/3 lg:w-1/2 transition-opacity duration-300 ease-in-out ${
+          className={`flex transition-opacity duration-300 ease-in-out ${
             isContentVisible ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -109,7 +110,7 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
             >
               <div className={`flex w-full`}>
                 <div>
-                  <h1 className="font-bold tracking-wider mb-5">
+                  <h1 className="mb-5 font-bold tracking-wider">
                     SHOP ALL {category.name?.toUpperCase()}
                   </h1>
                   <div className="flex">
@@ -118,22 +119,21 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
                         <ul key={chunkIndex} className="mr-5 last:mr-0">
                           {chunk.map((collection, index) => (
                             <li className="mb-3" key={index}>
-                              <a className="opacity-75 cursor-pointer underline decoration-transparent transition-colors duration-500 ease-out hover:decoration-parchment-950 hover:opacity-100">
+                              <a className="cursor-pointer underline decoration-transparent opacity-75 transition-colors duration-500 ease-out hover:decoration-parchment-950 hover:opacity-100">
                                 {collection.displayName}
                               </a>
                             </li>
                           ))}
                         </ul>
-                      )
+                      ),
                     )}
                   </div>
                 </div>
-                <div className="flex ml-24 gap-10">
+                <div className="ml-24 flex gap-10">
                   {category?.navigationCards?.map((card, index) => (
                     <div key={index} className="group cursor-pointer">
-                      <div className="w-[200px] h-[200px] rounded-sm relative overflow-hidden shadow group-hover:shadow-lg transition-shadow duration-500 ease-out">
-                        <Image
-                          priority
+                      <div className="relative h-[200px] w-[200px] overflow-hidden rounded-sm shadow transition-shadow duration-500 ease-out group-hover:shadow-lg">
+                        <img
                           src={getSanityImageURL(card.cardImage)}
                           alt=""
                           width={200}
@@ -141,8 +141,8 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
                           className="object-cover object-center"
                         />
                       </div>
-                      <div className="flex items-center gap-2 justify-end mt-2 ">
-                        <span className="underline decoration-transparent transition-colors ease-out duration-500 group-hover:decoration-parchment-950">
+                      <div className="mt-2 flex items-center justify-end gap-2">
+                        <span className="underline decoration-transparent transition-colors duration-500 ease-out group-hover:decoration-parchment-950">
                           {card.title}
                         </span>
                         <ArrowRightIcon strokeWidth={3} />

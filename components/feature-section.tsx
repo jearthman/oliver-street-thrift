@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 interface FeatureSectionProps {
@@ -18,20 +19,20 @@ export default function FeatureSection({
   return (
     <div className={`${className} flex`}>
       <div className="relative h-full w-1/2">
-        <Image
+        <img
+          loading="lazy"
           src={imgUrl}
           alt=""
-          fill
-          className="object-cover object-center"
+          className="absolute h-full w-full object-cover object-center"
         />
       </div>
-      <div className="bg-cinnabar-500 flex h-full w-1/2 flex-col justify-center">
+      <div className="flex h-full w-1/2 flex-col justify-center bg-cinnabar-500">
         <div className="ml-40">
           <h1 className="text-4xl font-semibold tracking-wider text-white">
             {title.toLocaleUpperCase()}
           </h1>
           <p className="mb-6 text-white">{subtitle}</p>
-          <span className="hover:text-cinnabar-200 hover:border-cinnabar-200 mt-2 cursor-pointer border-b-2 border-white text-white transition-colors">
+          <span className="mt-2 cursor-pointer border-b-2 border-white text-white transition-colors hover:border-cinnabar-200 hover:text-cinnabar-200">
             SHOP {collectionName.toLocaleUpperCase()}
           </span>
         </div>
