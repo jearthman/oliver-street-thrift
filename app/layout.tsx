@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Onest } from "next/font/google";
 import "./globals.css";
-
+import Links from "./components/links";
+import Nav from "./components/nav";
 const onest = Onest({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,7 +18,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={onest.className}>{children}</body>
+      <body
+        className={`${onest.className} flex min-h-full w-full flex-col overflow-y-auto overflow-x-hidden`}
+      >
+        <div className="fixed top-0 z-50 flex h-28 w-full flex-col">
+          <Nav />
+          <Links />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

@@ -6,6 +6,7 @@ import { NavigationCategory } from "@/src/sanity/types";
 import Image from "next/image";
 import ArrowRightIcon from "./ds/icons/arrow-right";
 import { getSanityImageURL } from "@/src/sanity/lib/helpers";
+import Link from "next/link";
 
 interface NavLinkProps {
   navCategories: NavigationCategory[];
@@ -81,11 +82,12 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
             className="relative cursor-pointer py-3 font-light uppercase leading-tight"
             key={index}
           >
-            <span
+            <Link
+              href={`/${category.slug?.current}`}
               className={`border-b transition-colors ${activeCategory?.name === category.name ? "border-parchment-950" : "border-transparent"}`}
             >
               {category.name}
-            </span>
+            </Link>
           </li>
         ))}
       </ul>

@@ -1,6 +1,4 @@
-import Hero from "@/components/hero";
-import Links from "../components/links";
-import Nav from "../components/nav";
+import Hero from "@/app/components/hero";
 import { Girassol } from "next/font/google";
 import { Collection } from "@/types/storefront.types";
 
@@ -13,13 +11,13 @@ import {
   BASIC_COLLECTION_IMAGE_QUERY,
   HOME_PAGE_COLLECTION_PRODUCTS_QUERY,
 } from "@/src/shopify/queries";
-import CollectionCarousel from "@/components/collection-carousel";
-import FeatureSection from "@/components/feature-section";
-import CategorySection from "@/components/category-section";
-import YoutubeSection from "@/components/youtube-section";
-import Button from "@/components/ds/button";
-import ArrowRightIcon from "@/components/ds/icons/arrow-right";
-import Footer from "@/components/footer";
+import CollectionCarousel from "@/app/components/collection-carousel";
+import FeatureSection from "@/app/components/feature-section";
+import CategorySection from "@/app/components/category-section";
+import YoutubeSection from "@/app/components/youtube-section";
+import Button from "@/app/components/ds/button";
+import ArrowRightIcon from "@/app/components/ds/icons/arrow-right";
+import Footer from "@/app/components/footer";
 
 const girassol = Girassol({ weight: "400", subsets: ["latin"] });
 
@@ -106,13 +104,9 @@ export default async function Home() {
   console.log(homePageContent);
 
   return (
-    <main className="flex min-h-full w-full flex-col overflow-y-auto overflow-x-hidden">
-      <div className="fixed top-0 z-50 flex h-28 w-full flex-col">
-        <Nav />
-        <Links />
-      </div>
+    <>
       <Hero
-        className="mt-28 min-h-[550px] w-full md:h-1/2"
+        className="min-h-[550px] w-full bg-parchment-50 pt-28 md:h-1/2"
         title={homePageContent.HeroTitle}
         imageURL={getSanityImageURL(homePageContent.HeroImage)}
       />
@@ -171,6 +165,6 @@ export default async function Home() {
         </div>
       </div>
       <Footer />
-    </main>
+    </>
   );
 }
