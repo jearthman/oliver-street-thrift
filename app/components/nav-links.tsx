@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState, useRef, useCallback, useEffect } from "react";
@@ -83,7 +82,7 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
             key={index}
           >
             <Link
-              href={`/${category.slug?.current}`}
+              href={`/collection/${category.slug?.current}`}
               className={`border-b transition-colors ${activeCategory?.name === category.name ? "border-parchment-950" : "border-transparent"}`}
             >
               {category.name}
@@ -121,9 +120,12 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
                         <ul key={chunkIndex} className="mr-5 last:mr-0">
                           {chunk.map((collection, index) => (
                             <li className="mb-3" key={index}>
-                              <a className="cursor-pointer underline decoration-transparent opacity-75 transition-colors duration-500 ease-out hover:decoration-parchment-950 hover:opacity-100">
+                              <Link
+                                href={`/collection/${category.slug?.current}/${collection.slug?.current}`}
+                                className="cursor-pointer underline decoration-transparent opacity-75 transition-colors duration-500 ease-out hover:decoration-parchment-950 hover:opacity-100"
+                              >
                                 {collection.displayName}
-                              </a>
+                              </Link>
                             </li>
                           ))}
                         </ul>
@@ -135,7 +137,7 @@ export default function NavLinks({ navCategories }: NavLinkProps) {
                   {category?.navigationCards?.map((card, index) => (
                     <div key={index} className="group cursor-pointer">
                       <div className="relative h-[200px] w-[200px] overflow-hidden rounded-sm shadow transition-shadow duration-500 ease-out group-hover:shadow-lg">
-                        <img
+                        <Image
                           src={getSanityImageURL(card.cardImage)}
                           alt=""
                           width={200}

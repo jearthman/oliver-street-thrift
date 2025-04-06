@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useState } from "react";
@@ -101,7 +100,7 @@ export default function CollectionCarousel({
                   layoutId={`image-${product.node.title}`}
                   className="overflow-hidden rounded shadow transition-shadow duration-500 ease-out group-hover:shadow-lg"
                 >
-                  <img
+                  <Image
                     loading="lazy"
                     src={product.node.images.edges[0].node.url}
                     alt={product.node.title}

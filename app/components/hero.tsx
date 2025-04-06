@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import Button from "./ds/button";
@@ -23,9 +22,10 @@ export default function Hero({
 
   return (
     <div className={`${className} relative`}>
-      <img
+      <Image
         src={imageURL}
         alt=""
+        fill
         className="absolute h-full w-full object-cover object-center"
       />
       <div className="absolute z-10 h-full w-full bg-gradient-to-r from-black to-transparent opacity-75"></div>

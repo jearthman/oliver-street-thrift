@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 interface FeatureSectionProps {
@@ -19,10 +18,11 @@ export default function FeatureSection({
   return (
     <div className={`${className} flex`}>
       <div className="relative h-full w-1/2">
-        <img
+        <Image
           loading="lazy"
           src={imgUrl}
           alt=""
+          fill
           className="absolute h-full w-full object-cover object-center"
         />
       </div>

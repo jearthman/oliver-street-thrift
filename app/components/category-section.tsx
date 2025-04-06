@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import Image from "next/image";
 
@@ -28,7 +27,7 @@ export default function CategorySection({
             key={collection.name}
           >
             <div className="overflow-hidden rounded shadow transition-shadow duration-500 ease-out group-hover:shadow-lg">
-              <img
+              <Image
                 loading="lazy"
                 src={collection.imgUrl}
                 alt={collection.name}

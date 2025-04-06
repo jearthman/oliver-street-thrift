@@ -3,6 +3,7 @@ import { Onest } from "next/font/google";
 import "./globals.css";
 import Links from "./components/links";
 import Nav from "./components/nav";
+import Footer from "./components/footer";
 const onest = Onest({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function RootLayout({
           <Links />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );
